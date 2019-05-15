@@ -1,0 +1,24 @@
+### https://raw.github.com/github/gitignore/e32de69dc7a71f84b1da648a5d893dd8bcc87d8a/Scala.gitignore
+
+*.class
+*.log
+
+
+gibo 2.1.2 by Simon Whitaker <sw@netcetera.org>
+https://github.com/simonwhitaker/gibo
+### https://raw.github.com/github/gitignore/e32de69dc7a71f84b1da648a5d893dd8bcc87d8a/Global/SBT.gitignore
+
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+
